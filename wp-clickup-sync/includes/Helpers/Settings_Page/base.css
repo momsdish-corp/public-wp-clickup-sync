@@ -1,0 +1,8 @@
+.wp-clickup-sync.subsection-menu {
+    margin-top: -10px;
+}
+
+.wp-clickup-sync.subsection-menu .has-subsections .subsection-menu ul li span {
+    display: inline-block;
+    padding: 0 2px;
+}

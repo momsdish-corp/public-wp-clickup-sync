@@ -1,0 +1,57 @@
+.wp-clickup-sync.nav-tab-wrapper {
+    margin-bottom: 10px !important;
+}
+
+.wp-clickup-sync.menu-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.wp-clickup-sync.menu-wrapper .menu {
+    margin: -10px -10px 0;
+}
+
+.wp-clickup-sync.menu-wrapper .menu .menu-item {
+    padding: 10px;
+}
+
+.wp-clickup-sync.filter-menu {
+    display: flex;
+    flex-flow: row wrap;
+    margin: -10px 0 5px -20px;
+}
+
+.wp-clickup-sync.filter-menu input {
+    margin: 5px;
+}
+
+.wp-clickup-sync.filter-menu input[type="text"] {
+    margin-left: 20px;
+}
+
+.wp-clickup-sync.settings-form code {
+    font-weight: normal;
+    color: #C35B0E;
+    background: transparent;
+    line-height: inherit;
+    min-height: auto;
+    padding: 0;
+}
+
+.clickup-sync-meta-box {
+    max-width: 100%;
+}
+
+.clickup-sync-meta-box label a {
+    font-weight: bold;
+}
+
+.clickup-sync-meta-box label a::after {
+    padding-left: 6px;
+    content:"" url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==);
+}
+
+.clickup-sync-meta-box input.regular-text {
+    max-width: 100%;
+    margin-bottom: 16px;
+}
