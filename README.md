@@ -9,6 +9,14 @@ Additional features:
 Note: Although this is a fully functional plugin, it's meant to be published as proof of concept, allowing others to
 adapt it to their needs.
 
+## Installation
+- Copy "wp-clickup-sync" folder to your WordPress plugins folder and activate it.
+- Add your ClickUp API key in the plugin settings page.
+- Grab the List ID of the ClickUp list you want to sync with. It can be found in URL as 
+  app.clickup.com/1234567/v/l/6-[list-id]-1 or app.clickup.com/1234567/v/li/[list-id].
+- Add the List ID to `ClickUp Sync` -> `Settings` -> `Connect Posts` or `Connect Terms`, save changes to pull & 
+  link the fields.
+
 ## Screenshots
 ![Connections Panel](docs/screenshot-activate.png)
 ![Connections Panel](docs/screenshot-connect.png)
