@@ -228,8 +228,9 @@ class DB_Queue {
 			$retain_string = " AND updated_at < DATE_SUB(NOW(), INTERVAL {$retain_days} DAY)";
 		}
 
-		// Get data
-		return $wpdb->query( "DELETE FROM {$table_name}{$where_string}" . $retain_string );
+        $wpdb_query_str="DELETE FROM {$table_name}{$where_string}" . $retain_string;
+
+        return $wpdb->query( $wpdb_query_str );
 	}
 
 	/**

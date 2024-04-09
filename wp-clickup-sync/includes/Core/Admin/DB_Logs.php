@@ -154,8 +154,9 @@ class DB_Logs {
             $retain_string = " WHERE created_at < DATE_SUB(NOW(), INTERVAL {$retain_days} DAY)";
 		}
 
-		// Get data
-		return $wpdb->query( "DELETE FROM {$table_name}" . $retain_string );
+        $wpdb_query_str = "DELETE FROM {$table_name}" . $retain_string;
+
+        return $wpdb->query( $wpdb_query_str );
 	}
 
 	/**
