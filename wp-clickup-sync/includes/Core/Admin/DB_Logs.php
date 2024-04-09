@@ -151,7 +151,7 @@ class DB_Logs {
 
 		$retain_string = '';
 		if ( $retain_days && $retain_days > 0 ) {
-			$retain_string = " WHERE updated_at < DATE_SUB(NOW(), INTERVAL {$retain_days} DAY)";
+            $retain_string = " WHERE created_at < DATE_SUB(NOW(), INTERVAL {$retain_days} DAY)";
 		}
 
 		// Get data
