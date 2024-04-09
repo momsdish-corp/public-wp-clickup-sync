@@ -1,3 +1,4 @@
+## Description
 This WordPress plugin syncs WordPress entities (posts, pages, categories, tags, menus, etc.) with ClickUp tasks.
 
 Additional features:
@@ -7,6 +8,10 @@ Additional features:
 
 Note: Although this is a fully functional plugin, it's meant to be published as proof of concept, allowing others to
 adapt it to their needs.
+
+## Screenshots
+![Connections Panel](docs/screenshot-activate.png)
+![Connections Panel](docs/screenshot-connect.png)
 
 ## License
 This is free and unencumbered software released into the public domain. For more information, please refer to [LICENSE.md](LICENSE.md).
