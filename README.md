@@ -21,5 +21,8 @@ adapt it to their needs.
 ![Connections Panel](docs/screenshot-activate.png)
 ![Connections Panel](docs/screenshot-connect.png)
 
-## License
-This is free and unencumbered software released into the public domain. For more information, please refer to [LICENSE.md](LICENSE.md).
+## Legal
+
+This WordPress plugin is provided as-is, without any guarantees or support. We're sharing the code to help anyone else
+dealing with the same issues. The code can be used without any restrictions, both for commercial and non-commercial use.
+See [LICENSE.md](LICENSE.md) for more info.
